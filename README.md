@@ -61,6 +61,12 @@ The followings are sample commands for inference (mini-batch size is 1):
 
 ### Limitations
 
-1. Our implementation supports CUDA, but it has not been tested sufficiently. Thus, please use "--no_cuda" option to run on only CPU.
+1. Our implementation supports CUDA, but it has not been sufficiently tested yet. Thus, please use "--no_cuda" option to run on CPU only.
 
 ## Reference
+
+[1] R.T.Q. Chen, Y. Rubanova, J. Bettencourt, and D. Duvenaud, “Neural Ordinary Differential Equations,” NIPS, 2018. [(paper)](https://papers.nips.cc/paper/7892-neural-ordinary-differential-equations)
+
+[2] S. Choi, S. Seo, B. Shin, H. Byun, M. Kersner, B. Kim, D. Kim, and S. Hay, “Temporal Convolution for Real-time Keyword Spotting on Mobile Devices,” INTERSPEECH, 2019. [(paper)](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1363.pdf)
+
+[3]	Y. Bai, J. Yi, J. Tao, Z. Wen, Z. Tian, C. Zhao, and C. Fan, “A Time Delay Neural Network with Shared Weight Self-Attention for Small-Footprint Keyword Spotting,” INTERSPEECH, 2019. [(paper)](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1676.pdf)
