@@ -1,6 +1,8 @@
 # KWS-ODE: Neural ODE for small-footprint keyword spotting
 
-KWS-ODE is neural network models based on [neural ordinary differential equation (Neural ODE)](https://github.com/rtqichen/torchdiffeq) with temporal convolutional neural network (TCNN) [[2]](#Reference) and time delay neural network (TDNN) [[3]](#Reference) for small-footprint keyword spotting. KWS-ODE is implemented by PyTorch and the implementation is based on [Honk](https://github.com/castorini/honk).
+KWS-ODE is neural network models based on [neural ordinary differential equation (Neural ODE)](https://github.com/rtqichen/torchdiffeq) with temporal convolutional neural network (TCNN) [[2]](#Reference) and time delay neural network (TDNN) [[3]](#Reference) for small-footprint keyword spotting. The details are described in [[4]](#Reference).
+
+KWS-ODE is implemented by PyTorch and the implementation is based on [Honk](https://github.com/castorini/honk).
 
 ## Installation
 
@@ -70,3 +72,5 @@ The followings are sample commands for inference (mini-batch size is 1):
 [2] S. Choi, S. Seo, B. Shin, H. Byun, M. Kersner, B. Kim, D. Kim, and S. Hay, “Temporal Convolution for Real-time Keyword Spotting on Mobile Devices,” INTERSPEECH, 2019. [(paper)](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1363.pdf)
 
 [3]	Y. Bai, J. Yi, J. Tao, Z. Wen, Z. Tian, C. Zhao, and C. Fan, “A Time Delay Neural Network with Shared Weight Self-Attention for Small-Footprint Keyword Spotting,” INTERSPEECH, 2019. [(paper)](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1676.pdf)
+
+[4] H. Fuketa and Y. Morita, “Neural ODE with Temporal Convolution and Time Delay Neural Networks for Small-Footprint Keyword Spotting,” arXiv:2008.00209. [(paper)](https://arxiv.org/abs/2008.00209)
